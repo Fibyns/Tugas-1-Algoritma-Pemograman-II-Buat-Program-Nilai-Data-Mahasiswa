@@ -35,7 +35,6 @@ public class programtugas1no2 {
             for(int j=0; j<3; j++){
                 System.out.print(d[i][j]+"\t"); //menampilkan var d[i][j]
             }
-            //
             uts=d[i][0]; //memasukkan nilai d[i][0] ke dalam variabel uts
             uas=d[i][1]; //memasukkan nilai d[i][1] ke dalam variabel uas
             total=d[i][2]; //memasukkan nilai d[i][2] ke dalam variabel total
