@@ -13,6 +13,7 @@ public class Programtugas1no1 {
         
         System.out.print("Berapa Inputan Nilai Mahasiswa : "); //menampilkan tulisan "Berapa Inputan Nilai Mahasiswa : " untuk inputan keyboard
         int n = input.nextInt(); //menyimpan inputan ke var n
+        System.out.println(); //membuat baris baru
 
         //mengisi data nilai mahasiswa
         for(int i=0; i<n; i++){ //melakukan perulangan 0 sampai kurang dri n
@@ -21,6 +22,7 @@ public class Programtugas1no1 {
             System.out.print("masukan nilai mahasiswa : "); //menampilkan tulisan "masukan nilai mahasiswa : " untuk inputan dari keyboard
             nilai = input.nextDouble(); //menyimpan inputan ke var nilai dengan menggunakan scanner
             total += nilai; //menambahkan total dan nilai, untuk hasil total dengan menggunakan operator += 
+            System.out.println(); //membuat baris baru
         }
         rata = total/n; //menghitung rata-rata dgn cara total di bagi n
         System.out.println("Total nilai mahasiswa : " + total ); //menampilkan isi dari var total 
